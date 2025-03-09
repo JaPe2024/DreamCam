@@ -1,0 +1,6 @@
+traincartsserver\lightplugin\LightGroup.class
+traincartsserver\lightplugin\LightGroupManager.class
+traincartsserver\lightplugin\LightTabCompleter.class
+traincartsserver\lightplugin\LightGroup$1.class
+traincartsserver\lightplugin\LightPlugin.class
+traincartsserver\lightplugin\LightCommandExecutor.class

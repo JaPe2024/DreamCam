@@ -1,0 +1,16 @@
+name: LightPlugin
+version: '${project.version}'
+main: traincartsserver.lightplugin.LightPlugin
+api-version: '1.20'
+description: A plugin to manage and control custom light levels and fading in Minecraft.
+author: YourName
+commands:
+  light:
+    description: Main command for LightPlugin.
+    usage: /light <give|create|set|add|remove> [arguments]
+    executor: com.example.lightplugin.LightCommandExecutor
+
+permissions:
+  light.admin:
+    description: Permission to use all LightPlugin commands.
+    default: op
