@@ -1,0 +1,8 @@
+name: DreamCam
+version: 1.0
+main: com.jape.dreamcam.DreamCam
+api-version: 1.21
+commands:
+  cameraa:
+    description: Steuerung der Kamera
+    usage: /cameraa
